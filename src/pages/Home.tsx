@@ -59,7 +59,7 @@ export const Home = () => {
                   Founding Engg • Hybrid Athlete
                 </p>
                 <p className="text-base md:text-lg text-gray-600 max-w-2xl leading-relaxed">
-                  I've been part of 3 founding teams across gaming, cybersecurity, and proptech—scaling products from the ground up. I specialize in AI agents, LLM pipelines, voice automation, and GPU-accelerated systems.
+                  I've been part of 3 founding teams across gaming, cybersecurity, and proptech scaling products from the ground up. I specialize in AI agents, LLM pipelines, voice automation, and GPU-accelerated systems.
                 </p>
               </motion.div>
             </motion.div>
@@ -74,23 +74,23 @@ export const Home = () => {
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">Theus</span>
-                  <span className="text-gray-500 text-sm">2024-2025</span>
+                  <span className="text-gray-500 text-sm">2025</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">Data enrichment agents, GPU-distilled models, $1M seed raise</p>
+                <p className="text-gray-600 text-sm mt-1">Capitalizing on commercial real estate using AI agents</p>
               </Link>
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">AIRRIVED</span>
                   <span className="text-gray-500 text-sm">2024</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">AI agents for cybersecurity triage, 15min → 5min resolution</p>
+                <p className="text-gray-600 text-sm mt-1">AI agents for cybersecurity triage</p>
               </Link>
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">Cohezion</span>
                   <span className="text-gray-500 text-sm">2023</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">LLM workflows, 1M+ queries, 40% latency reduction</p>
+                <p className="text-gray-600 text-sm mt-1">RAG pipelines for gaming analytics</p>
               </Link>
             </div>
             <div className="mt-8">
