@@ -1,30 +1,8 @@
-import React, { Children } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Background3DHome } from '../components/Background3DHome';
-import { BrainCircuitIcon, ServerIcon, ArrowRightIcon } from 'lucide-react';
+import { MailIcon, GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react';
 export const Home = () => {
-  const container = {
-    hidden: {
-      opacity: 0
-    },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2
-      }
-    }
-  };
-  const item = {
-    hidden: {
-      opacity: 0,
-      y: 20
-    },
-    show: {
-      opacity: 1,
-      y: 0
-    }
-  };
   return <div className="relative w-full bg-white min-h-screen">
       <Background3DHome />
       <div className="relative z-10">
@@ -59,7 +37,7 @@ export const Home = () => {
                   Founding Engg • Hybrid Athlete
                 </p>
                 <p className="text-base md:text-lg text-gray-600 max-w-2xl leading-relaxed">
-                  I've been part of 3 founding teams across gaming, cybersecurity, and proptech—scaling products from the ground up. I specialize in AI agents, LLM pipelines, voice automation, and GPU-accelerated systems.
+                  I've been part of 3 founding teams across gaming, cybersecurity, and proptech scaling products from the ground up. I specialize in AI agents, LLM pipelines, voice automation, and GPU-accelerated systems.
                 </p>
               </motion.div>
             </motion.div>
@@ -74,23 +52,23 @@ export const Home = () => {
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">Theus</span>
-                  <span className="text-gray-500 text-sm">2024-2025</span>
+                  <span className="text-gray-500 text-sm">2025</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">Data enrichment agents, GPU-distilled models, $1M seed raise</p>
+                <p className="text-gray-600 text-sm mt-1">Capitalizing on commercial real estate using AI agents</p>
               </Link>
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">AIRRIVED</span>
                   <span className="text-gray-500 text-sm">2024</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">AI agents for cybersecurity triage, 15min → 5min resolution</p>
+                <p className="text-gray-600 text-sm mt-1">AI agents for cybersecurity triage</p>
               </Link>
               <Link to="/work" className="block py-3 border-b border-gray-100 hover:border-black transition-colors">
                 <div className="flex justify-between items-center">
                   <span className="text-black font-medium">Cohezion</span>
                   <span className="text-gray-500 text-sm">2023</span>
                 </div>
-                <p className="text-gray-600 text-sm mt-1">LLM workflows, 1M+ queries, 40% latency reduction</p>
+                <p className="text-gray-600 text-sm mt-1">RAG pipelines for gaming analytics</p>
               </Link>
             </div>
             <div className="mt-8">
@@ -98,6 +76,74 @@ export const Home = () => {
                 View all work →
               </Link>
             </div>
+          </section>
+
+          {/* Contact Section */}
+          <section className="py-20 border-t border-gray-200">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-black mb-2">Get in touch</h2>
+              <p className="text-gray-600 text-sm">Got an interesting project or collaboration in mind? I'd love to hear from you.</p>
+            </div>
+            <motion.div 
+              className="flex flex-col gap-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              {/* Email */}
+              <motion.a 
+                href="mailto:anishgillella@gmail.com" 
+                className="inline-flex items-center gap-3 text-black hover:text-gray-600 transition-colors"
+                whileHover={{ x: 4 }}
+              >
+                <MailIcon size={20} />
+                <span className="font-medium">anishgillella@gmail.com</span>
+              </motion.a>
+
+              {/* Social Links */}
+              <div className="flex gap-6 pt-4">
+                <motion.a 
+                  href="https://github.com/anishgillella" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors text-sm font-medium"
+                  whileHover={{ scale: 1.05, x: 2 }}
+                >
+                  <GithubIcon size={18} />
+                  <span>GitHub</span>
+                </motion.a>
+                <motion.a 
+                  href="https://www.linkedin.com/in/anishgillella/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors text-sm font-medium"
+                  whileHover={{ scale: 1.05, x: 2 }}
+                >
+                  <LinkedinIcon size={18} />
+                  <span>LinkedIn</span>
+                </motion.a>
+                <motion.a 
+                  href="https://x.com/thegillella" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors text-sm font-medium"
+                  whileHover={{ scale: 1.05, x: 2 }}
+                >
+                  <TwitterIcon size={18} />
+                  <span>X</span>
+                </motion.a>
+                <motion.a 
+                  href="https://medium.com/@anish.gillella" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 text-gray-600 hover:text-black transition-colors text-sm font-medium"
+                  whileHover={{ scale: 1.05, x: 2 }}
+                >
+                  <span className="font-bold text-lg">M</span>
+                  <span>Medium</span>
+                </motion.a>
+              </div>
+            </motion.div>
           </section>
         </div>
       </div>
