@@ -13,7 +13,7 @@
 
 ```yaml
 Location:   Dallas, TX
-Role:       Founding Engineer × 2 | AI/ML Engineer
+Role:       Production Vibe Coder | Founding Engineer × 2
 Education:  MS @ The University of Texas at Dallas
 Focus:      Building AI systems that ship to production
 ```
@@ -22,7 +22,9 @@ Focus:      Building AI systems that ship to production
 
 ### `$ whoami`
 
-Founding engineer who's been in the trenches at **two early-stage startups** and shipped across **three startup teams** spanning gaming, cybersecurity, and prop-tech. I don't just build models — I build products. From fine-tuning LLMs on Modal GPUs to deploying real-time voice agents, I operate across the full stack with a bias toward AI-native architectures.
+Founding engineer who's been in the trenches at **two early-stage startups** and shipped across **three startup teams** spanning gaming, cybersecurity, and prop-tech. I build 0-1 products. If it doesn't ship to prod, it doesn't count.
+
+From fine-tuning LLMs on Modal GPUs to deploying real-time voice agents, I operate across the full stack with a bias toward **production-grade AI systems**. I write code that runs in the real world — not notebooks that collect dust.
 
 Currently building at the intersection of **AI agents**, **voice interfaces**, and **applied ML** — turning research into revenue.
 
@@ -85,20 +87,6 @@ open "https://linkedin.com/in/anishgillella"  # 💼 LinkedIn
 open "https://x.com/thegillella"              # 𝕏  Twitter/X
 open "https://medium.com/@anish.gillella"     # ✍️ Medium
 ```
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anishgillella&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=anishgillella&theme=dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=555555" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anishgillella&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9" alt="Top Languages" />
-</p>
 
 ---
 
