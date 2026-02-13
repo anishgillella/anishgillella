@@ -28,7 +28,7 @@ Three startups. Three industries — **gaming, cybersecurity, prop-tech**. One c
 
 I've automated 1,000+ client calls with voice agents, cut onboarding costs by 45% with multi-agent orchestration, compressed 8-hour workflows to 1 hour with agentic browser automation, and distilled GPT-5 into smaller models on H100 GPUs. I don't demo — I deploy.
 
-Research Member @ **Harvard Business Review Advisory Council**.
+Council Member @ **Harvard Business Review Advisory Council**.
 
 ---
 
